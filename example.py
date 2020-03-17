@@ -15,11 +15,11 @@ for i in range(1, 6):
 '''
 i, match_quantity = 0, 0
 
-# while i < 10:
-#     if int(input('Введите число ')) == 5:
-#         match_quantity += 1
-#     i += 1
-# print('Количество цифр 5: ', match_quantity)
+while i < 10:
+    if int(input('Введите число ')) == 5:
+        match_quantity += 1
+    i += 1
+print('Количество цифр 5: ', match_quantity)
 
 '''
 Задача 3
