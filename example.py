@@ -38,6 +38,7 @@ print(sum)
 Найти произведение ряда чисел от 1 до 10. Полученный результат вывести на экран.
 '''
 op = 1
+
 for i in range(1, 11):
     op *= i
 print(op)
@@ -48,6 +49,7 @@ print(op)
 Вывести цифры числа на каждой строчке.
 '''
 integer_number = 2129
+
 while integer_number > 0:
     print(integer_number % 10)
     integer_number = integer_number // 10
@@ -57,13 +59,26 @@ while integer_number > 0:
 
 Найти сумму цифр числа.
 '''
+sum = 0
+integer_number = 2129
+
+while integer_number > 0:
+    sum += integer_number
+    integer_number = integer_number // 10
+print(sum)
 
 '''
 Задача 7
 
 Найти произведение цифр числа.
 '''
+op = 1
+integer_number = 2129
 
+while integer_number > 0:
+    op *= integer_number
+    integer_number = integer_number // 10
+print(op)
 '''
 Задача 8
 
