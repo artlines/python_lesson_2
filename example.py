@@ -98,9 +98,31 @@ else:
 
 Найти максимальную цифру в числе
 '''
+max_number = 0
+integer_number = 213413
 
+while integer_number > 0:
+    number = integer_number % 10
+    print('number is', number)
+
+    if number > max_number:
+        max_number = number
+    integer_number = integer_number // 10
+print('max number is ', max_number)
 '''
 Задача 10
 
 Найти количество цифр 5 в числе
 '''
+
+fives_quantity = 0
+integer_number = 555
+
+while integer_number > 0:
+    number = integer_number % 10
+    print('number is', number)
+
+    if number == 5:
+        fives_quantity += 1
+    integer_number = integer_number // 10
+print('fives quantity is ', fives_quantity)
